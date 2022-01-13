@@ -1,4 +1,6 @@
-#Bitbucket Code Coverage
+# Bitbucket Code Coverage
+
+**_This fork its updated to PHP8.0 and Symfony >5.3._**
 
 PHP command to convert and publish coverage data to BitBucket server.
 
