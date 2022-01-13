@@ -101,5 +101,7 @@ class ReportCommand extends Command
             ->send();
 
         $output->writeln('Posted '.count($result->getFiles()).' entries');
+
+        return Command::SUCCESS;
     }
 }
