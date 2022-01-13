@@ -1,5 +1,5 @@
 {
-  "name": "oneshoe/clover-to-bitbucket",
+  "name": "kavinsky/clover-to-bitbucket",
   "description": "Report clover coverage to bitbucket",
   "minimum-stability": "stable",
   "license": "Apache-2.0",
@@ -10,19 +10,20 @@
     }
   ],
   "require": {
-    "symfony/filesystem": ">=3.4 <5.0",
-    "symfony/console": ">=3.4 <5.0",
-    "nategood/httpful": "^0.2.20",
+    "php": "^8.0",
+    "symfony/filesystem": "^5.3",
+    "symfony/console": "^5.3",
+    "nategood/httpful": "^0.3.2",
     "ext-simplexml": "*",
     "ext-json": "*"
   },
   "require-dev": {
     "roave/security-advisories": "dev-master",
-    "phpunit/phpunit": "^6.5"
+    "phpunit/phpunit": "^9.5"
   },
   "autoload": {
     "psr-4": {
-      "Oneshoe\\CloverToBitbucket\\": "src"
+      "Kavinsky\\CloverToBitbucket\\": "src"
     }
   },
   "bin": [

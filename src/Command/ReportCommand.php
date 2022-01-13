@@ -1,9 +1,9 @@
 <?php
 
-namespace Oneshoe\CloverToBitbucket\Command;
+namespace Kavinsky\CloverToBitbucket\Command;
 
 use Httpful\Request;
-use Oneshoe\CloverToBitbucket\Converter;
+use Kavinsky\CloverToBitbucket\Converter;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;

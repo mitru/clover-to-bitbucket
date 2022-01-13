@@ -25,5 +25,5 @@ if (!$loaded) {
 }
 
 
-$application = new Oneshoe\CloverToBitbucket\Console\Application();
+$application = new Kavinsky\CloverToBitbucket\Console\Application();
 $application->run();

@@ -1,11 +1,11 @@
 <?php
 
-namespace Oneshoe\CloverToBitbucket;
+namespace Kavinsky\CloverToBitbucket;
 
 /**
  * Class FileInfo
  *
- * @package Oneshoe\CloverToBitbucket
+ * @package Kavinsky\CloverToBitbucket
  */
 class FileInfo
 {

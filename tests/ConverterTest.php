@@ -1,11 +1,11 @@
 <?php
 
-use Oneshoe\CloverToBitbucket\Converter;
+use Kavinsky\CloverToBitbucket\Converter;
 
 /**
  * Class ConverterTest
  *
- * @covers Oneshoe\CloverToBitbucket\Converter
+ * @covers Kavinsky\CloverToBitbucket\Converter
  */
 class ConverterTest extends \PHPUnit\Framework\TestCase
 {

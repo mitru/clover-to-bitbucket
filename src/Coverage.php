@@ -1,11 +1,11 @@
 <?php
 
-namespace Oneshoe\CloverToBitbucket;
+namespace Kavinsky\CloverToBitbucket;
 
 /**
  * Class Coverage
  *
- * @package Oneshoe\CloverToBitbucket
+ * @package Kavinsky\CloverToBitbucket
  */
 class Coverage
 {

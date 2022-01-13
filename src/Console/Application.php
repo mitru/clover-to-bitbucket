@@ -1,8 +1,8 @@
 <?php
 
-namespace Oneshoe\CloverToBitbucket\Console;
+namespace Kavinsky\CloverToBitbucket\Console;
 
-use Oneshoe\CloverToBitbucket\Command\ReportCommand;
+use Kavinsky\CloverToBitbucket\Command\ReportCommand;
 use Symfony\Component\Console\Application as BaseApplication;
 
 /**

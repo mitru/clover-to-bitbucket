@@ -1,6 +1,6 @@
 <?php
 
-namespace Oneshoe\CloverToBitbucket;
+namespace Kavinsky\CloverToBitbucket;
 
 /**
  * Class Converter
@@ -14,7 +14,7 @@ class Converter
      *
      * @param \SimpleXMLElement $xml
      * @param string $basePath
-     * @return \Oneshoe\CloverToBitbucket\Coverage
+     * @return \Kavinsky\CloverToBitbucket\Coverage
      */
     public static function cloverToBitbucket($xml, $basePath)
     {
