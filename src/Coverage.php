@@ -6,6 +6,7 @@ namespace Kavinsky\CloverToBitbucket;
  * Class Coverage
  *
  * @package Kavinsky\CloverToBitbucket
+ * @codeCoverageIgnore
  */
 class Coverage
 {
