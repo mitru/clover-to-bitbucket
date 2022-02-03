@@ -24,7 +24,13 @@ class Converter
 
         foreach ($fileElements as $fileElement) {
             $file = new FileInfo();
-            $path = self::makePathRelative($basePath, $fileElement['name']);
+
+            $path = $fileElement['name'];
+            if (isset($fileElement['path'])) {
+                $path = $fileElement['path'];
+            }
+
+            $path = self::makePathRelative($basePath, $path);
             $file->setPath($path);
             $covered = [];
             $unCovered = [];
