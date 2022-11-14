@@ -1,5 +1,5 @@
 {
-  "name": "kavinsky/clover-to-bitbucket",
+  "name": "mitru/clover-to-bitbucket",
   "description": "Report clover coverage to bitbucket",
   "minimum-stability": "stable",
   "license": "Apache-2.0",
