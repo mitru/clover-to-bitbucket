@@ -10,7 +10,7 @@
     }
   ],
   "require": {
-    "php": "^8.0",
+    "php": "^7.0",
     "symfony/filesystem": "^5.3",
     "symfony/console": "^5.3",
     "nategood/httpful": "^0.3.2",
